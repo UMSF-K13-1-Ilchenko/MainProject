@@ -19,11 +19,11 @@ namespace ConsoleApplication2
             //Console.WriteLine("Название: {0}", pizza2.Name);
             //Console.WriteLine("Цена: {0}", pizza2.GetCost());
 
-            Pizza pizza3 = new BulgerianPizza();
-            pizza3 = new TomatoPizza(pizza3);
-            pizza3 = new CheesePizza(pizza3);// болгарская пиццы с томатами и сыром
-            Console.WriteLine("Название: {0}", pizza3.Name);
-            Console.WriteLine("Цена: {0}", pizza3.GetCost());
+            //Pizza pizza3 = new BulgerianPizza();
+            //pizza3 = new TomatoPizza(pizza3);
+            //pizza3 = new CheesePizza(pizza3);// болгарская пиццы с томатами и сыром
+            //Console.WriteLine("Название: {0}", pizza3.Name);
+            //Console.WriteLine("Цена: {0}", pizza3.GetCost());
 
             Console.ReadLine();
         }
