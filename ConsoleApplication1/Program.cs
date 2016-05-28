@@ -14,10 +14,10 @@ namespace ConsoleApplication2
             Console.WriteLine("Название: {0}", pizza1.Name);
             Console.WriteLine("Цена: {0}", pizza1.GetCost());
 
-            Pizza pizza2 = new ItalianPizza();
-            pizza2 = new CheesePizza(pizza2);// итальянская пиццы с сыром
-            Console.WriteLine("Название: {0}", pizza2.Name);
-            Console.WriteLine("Цена: {0}", pizza2.GetCost());
+            //Pizza pizza2 = new ItalianPizza();
+            //pizza2 = new CheesePizza(pizza2);// итальянская пиццы с сыром
+            //Console.WriteLine("Название: {0}", pizza2.Name);
+            //Console.WriteLine("Цена: {0}", pizza2.GetCost());
 
             Pizza pizza3 = new BulgerianPizza();
             pizza3 = new TomatoPizza(pizza3);
